@@ -87,17 +87,7 @@ DATABASES = {
             'trusted_connection': 'yes',
             'extra_params': 'TrustServerCertificate=yes',
         },
-    },
-    'second': {
-        'ENGINE': 'mssql',
-        'NAME': 'test2',
-        'HOST': 'localhost',
-        'OPTIONS': {
-            'driver': 'ODBC Driver 18 for SQL Server',
-            'trusted_connection': 'yes',
-            'extra_params': 'TrustServerCertificate=yes',
-        },
-    },
+    }
 }
 
 
